@@ -1,0 +1,26 @@
+{
+  "name": "chatapp-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil-ansari01/ChatApp-Express.git"
+  },
+  "author": "sahil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahil-ansari01/ChatApp-Express/issues"
+  },
+  "homepage": "https://github.com/sahil-ansari01/ChatApp-Express#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
