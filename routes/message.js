@@ -22,7 +22,7 @@ router.get('/', (req, res, next) => {
 
 router.post('/', (req, res, next) => {
     console.log(req.body);
-    fs.writeFile('username.txt', `${req.body.username}: ${req.body.message}`, {flag: 'a'}, (err) => {
+    fs.writeFile('username.txt', `${req.body.username}: ${req.body.message} `, {flag: 'a'}, (err) => {
         err ? console.log(err) : res.redirect('/');
     });
 });
